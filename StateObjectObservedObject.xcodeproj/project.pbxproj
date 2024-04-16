@@ -77,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D653AB0D2BCEA1F20046718A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D653AB0B2BCE9E680046718A /* StateObjectCounterView.swift */,
+				D6832E942BCE604200DE08E8 /* CounterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D653AB0E2BCEA2020046718A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6832E922BCE600300DE08E8 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D6832E5C2BCE5FE000DE08E8 = {
 			isa = PBXGroup;
 			children = (
@@ -100,13 +117,12 @@
 		D6832E672BCE5FE000DE08E8 /* StateObjectObservedObject */ = {
 			isa = PBXGroup;
 			children = (
+				D653AB0E2BCEA2020046718A /* ViewModel */,
+				D653AB0D2BCEA1F20046718A /* View */,
 				D6832E682BCE5FE000DE08E8 /* StateObjectObservedObjectApp.swift */,
 				D6832E6A2BCE5FE000DE08E8 /* ContentView.swift */,
 				D6832E6C2BCE5FE200DE08E8 /* Assets.xcassets */,
 				D6832E6E2BCE5FE200DE08E8 /* Preview Content */,
-				D6832E922BCE600300DE08E8 /* ViewModel.swift */,
-				D6832E942BCE604200DE08E8 /* CounterView.swift */,
-				D653AB0B2BCE9E680046718A /* StateObjectCounterView.swift */,
 			);
 			path = StateObjectObservedObject;
 			sourceTree = "<group>";
